@@ -1,5 +1,5 @@
 # Particle-Swarm-Optimization
-Overview
+
 This project demonstrates Particle Swarm Optimization (PSO), an optimization algorithm inspired by the swarming behavior of birds and fish. The visualization shows how particles explore the search space and converge towards an optimal solution over time.
 
 ## How PSO Works
@@ -25,3 +25,22 @@ Determine global best (gbest) based on the best function value found.
 Adjust velocities based on inertia, personal best, and global best.
 Update positions of particles.
 Repeat the process until convergence or a set number of iterations is reached.
+
+## Expected Outcome
+The particles should gradually converge towards the global minimum.
+Over iterations, the swarm refines its search, balancing exploration (searching new areas) and exploitation (refining known good solutions).
+The final solution found by PSO is compared to the actual global minimum.
+How to Run the Project
+Install necessary dependencies such as NumPy and Matplotlib.
+Run the script to execute the PSO algorithm.
+Observe the animation of particles converging toward the optimal solution.
+
+## Conclusion
+This project provides an intuitive understanding of PSO through a dynamic visualization. It showcases how the algorithm iteratively improves solutions and adapts based on swarm intelligence principles.
+
+
+
+
+
+
+
