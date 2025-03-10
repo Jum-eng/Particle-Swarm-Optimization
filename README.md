@@ -16,3 +16,12 @@ The search space is represented as a contour plot.
 Particles are plotted as moving points that update their positions at each iteration.
 The true global minimum is marked to compare PSO’s performance.
 The animation illustrates how particles adjust their positions over multiple iterations.
+
+## Algorithm Steps
+Initialize particles with random positions and velocities.
+Evaluate the function value at each particle’s position.
+Update personal bests (pbest) for each particle.
+Determine global best (gbest) based on the best function value found.
+Adjust velocities based on inertia, personal best, and global best.
+Update positions of particles.
+Repeat the process until convergence or a set number of iterations is reached.
