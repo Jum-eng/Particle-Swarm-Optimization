@@ -10,3 +10,9 @@ Each particle's movement is influenced by inertia, personal experience, and soci
 
 ## Objective Function
 The optimization is performed on a function that combines quadratic terms with sinusoidal components, making it a challenging landscape for optimization. The goal is to find the function's global minimum.
+
+## Visualization
+The search space is represented as a contour plot.
+Particles are plotted as moving points that update their positions at each iteration.
+The true global minimum is marked to compare PSO’s performance.
+The animation illustrates how particles adjust their positions over multiple iterations.
